@@ -31,7 +31,7 @@ import org.w3c.dom.Node;
  *
  */
 public abstract class ChildNode
-    extends NodeImpl {
+    extends NodeImpl implements IdentityObject {
 
     //
     // Constants

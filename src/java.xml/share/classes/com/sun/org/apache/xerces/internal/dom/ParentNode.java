@@ -71,7 +71,7 @@ import org.w3c.dom.UserDataHandler;
  * @LastModified: Apr 2019
  */
 public abstract class ParentNode
-    extends ChildNode {
+    extends ChildNode implements IdentityObject {
 
     /** Serialization version. */
     static final long serialVersionUID = 2815829867152120872L;

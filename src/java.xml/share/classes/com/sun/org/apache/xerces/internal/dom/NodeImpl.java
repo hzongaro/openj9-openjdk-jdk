@@ -82,7 +82,7 @@ import org.w3c.dom.events.EventTarget;
  * @LastModified: Apr 2019
  */
 public abstract class NodeImpl
-    implements Node, NodeList, EventTarget, Cloneable, Serializable{
+    implements Node, NodeList, EventTarget, Cloneable, Serializable, IdentityObject {
 
     //
     // Constants

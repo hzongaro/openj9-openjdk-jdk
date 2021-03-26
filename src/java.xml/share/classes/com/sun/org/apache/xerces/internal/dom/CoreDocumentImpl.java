@@ -86,7 +86,7 @@ import org.w3c.dom.ls.LSSerializer;
  * @LastModified: Sept 2019
  */
 public class CoreDocumentImpl
-        extends ParentNode implements Document {
+        extends ParentNode implements Document, IdentityObject {
 
     /**
      * TODO:: 1. Change XML11Char method names similar to XMLChar. That will
